@@ -5,7 +5,7 @@ import {
   BrowerRouter,
   Routes,
   Route
-} from 'react-icons-dom';
+} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
