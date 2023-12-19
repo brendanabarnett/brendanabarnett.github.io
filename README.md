@@ -1,2 +1,2 @@
 # brendanabarnett.github.io
-Personal Website
+Personal Portfolio Website
