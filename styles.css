@@ -1,11 +1,12 @@
 /* section separation */
 section {
-    padding-bottom: 30px; /* Add some space between sections */
+    padding-top: 70px;
+    padding-bottom: 30px;
 }
 
 section:not(:last-child) {
-    border-bottom: 1px solid lightgray; /* Add a border below each section except the last one */
-    margin-bottom: 20px; /* Adjust margin for spacing */
+    border-bottom: 1px solid lightgray; 
+    margin-bottom: 20px;
 }
 
 body {
