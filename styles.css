@@ -67,8 +67,9 @@ header h1 {
 }
 
 header p {
-    font-size: 4vw;
+    font-size: 3vw;
     margin: 1%;
+    margin-bottom: 20%;
 }
 
 
