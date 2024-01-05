@@ -42,7 +42,7 @@ header {
 
 header {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
     background-color: white;
     color: black;
@@ -57,7 +57,7 @@ header {
 .logo img {
     width: 100px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 
@@ -97,8 +97,8 @@ section:not(:last-child) {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -151,7 +151,7 @@ a {
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(252, 252, 252, 0.8);
     overflow: hidden;
     position: sticky;
     top: 0;
