@@ -56,10 +56,23 @@ header {
 }
 
 .logo img {
-    width: 140px;
-    height: auto;
-    margin-right: 80px;
+    width: 200px; 
+    height: auto; 
+    margin-right: 75px;
 }
+
+.intro-text {
+    text-align: left; 
+    /*margin: 2px 0;*/
+    margin-bottom: 2px;
+}
+
+.hey h1 {
+    font-size: 3vw;
+    color: blue;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -106,17 +119,6 @@ body {
 }
 
 
-
-.logo img {
-    width: 200px; 
-    height: auto; 
-    margin-right: 50px;
-}
-
-.intro-text {
-    text-align: left; 
-    margin: 2px 0;
-}
 /*
 h1 {
     font-size: 2.5em;
@@ -161,7 +163,8 @@ a {
 
 .navbar ul {
     list-style-type: none;
-    margin: 0;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 0;
     display: flex;
     justify-content: right;
