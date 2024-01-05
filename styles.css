@@ -42,7 +42,7 @@ header {
 
 header {
     text-align: center;
-    padding: 10px;
+    padding: 1px;
     font-family: 'Roboto', sans-serif;
     background-color: white;
     color: black;
@@ -55,9 +55,9 @@ header {
 }
 
 .logo img {
-    width: 100px;
+    width: 140px;
     height: auto;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 
