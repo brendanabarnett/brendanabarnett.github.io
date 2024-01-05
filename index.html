@@ -4,44 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brendan Barnett - Portfolio</title>
+    <title>Your Name - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the navbar */
+        .navbar {
+            background-color: #333; /* Dark background color for the navbar */
+            overflow: hidden;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            display: inline;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            color: lightgray;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1>Brendan Barnett</h1>
-        <h2>Student, ML researcher, Web Dev</h2>
-    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about-section">About Me</a></li>
+            <li><a href="#experience-section">Experience</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+        </ul>
+    </nav>
 
     <section id="welcome">
         <h3>Welcome to my portfolio website!</h3>
         <p>This is a basic layout. big things are coming</p>
     </section>
 
-    <section id="experiences">
-        <h2>Experiences</h2>
-        <!--<h3>Current Projects</h3>-->
-        <ul>
-            <li><strong>Exp 1:</strong> [Brief description]</li>
-            <li><strong>EXp 2:</strong> [Brief description]</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1 Title</h3>
-            <p>Description: [Brief overview]</p>
-        </div>
-        <div class="project">
-            <h3>Project 2 Title</h3>
-            <p>Description: [Brief overview]</p>
-        </div>
-    </section>
-
-    <section id="about">
+    <section id="about-section">
         <h2>About Me</h2>
         <p>Write some stuff about me</p>
         <h3>Skills</h3>
@@ -49,9 +61,7 @@
             <li>programming skills</li>
             <li>technial proficienies</li>
         </ul>
-    </section>
 
-    <section id="interests">
         <h2>Interests</h2>
         <ul>
             <li>Running</li>
@@ -61,12 +71,31 @@
         </ul>
     </section>
 
-    <section id="resume">
-        <h2>Resume/CV</h2>
-        <a href="resume.pdf" download>Download Resume</a>
+    <section id="experience-section">
+        <h2>Experience</h2>
+        <!-- Experience content -->
+        <p>experience stuff here</p>
     </section>
 
-    
+    <section id="projects-section">
+        <h2>Projects</h2>
+        <!-- Projects content -->
+        <p>projects stuff here</p>
+    </section>
+
+
+    <script>
+        // Smooth scroll functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
