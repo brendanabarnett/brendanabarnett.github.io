@@ -52,6 +52,21 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /*height: 100vh;*/
+}
+
+.intro-text {
+    text-align: center;
+    max-width: 75%; 
+    margin: auto; 
+}
+
+h1 {
+    font-size: 8vw; 
+}
+
+p {
+    font-size: 4vw; /
 }
 
 
