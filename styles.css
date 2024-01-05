@@ -9,6 +9,12 @@ section:not(:last-child) {
     margin-bottom: 20px;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .resumebutton {
   margin-top: 6%;
   margin-left: 0%;
