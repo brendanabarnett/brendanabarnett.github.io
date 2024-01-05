@@ -4,16 +4,22 @@ section {
     padding-bottom: 50px;
 }
 
-.section-divider {
-    position: absolute;
-    top: 50%; /* Center the line vertically */
-    left: 5%; /* Adjust the space on the left */
-    right: 5%; /* Adjust the space on the right */
-    border-top: 1px solid lightgray; /* Add a top border as the dividing line */
-    width: 90%; /* Set the line to span 90% of the width */
-    transform: translateY(-50%); /* Center the line vertically */
+section:not(:last-child) {
+    border-bottom: 1px solid lightgray; 
+    margin-bottom: 20px;
 }
 
+/*
+.section-divider {
+    position: absolute;
+    top: 50%;
+    left: 5%; 
+    right: 5%;
+    border-top: 1px solid lightgray; 
+    width: 90%; 
+    transform: translateY(-50%);
+}
+*/
 
 body {
     font-family: 'Roboto', sans-serif;
