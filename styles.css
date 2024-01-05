@@ -60,9 +60,8 @@ a:hover {
 }
 
 
-
 .navbar {
-    background-color: #0274ff; /*lovely blue*/
+    background-color: black;
     overflow: hidden;
     position: sticky;
     top: 0;
@@ -74,7 +73,7 @@ a:hover {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 .navbar li {
@@ -82,7 +81,7 @@ a:hover {
 }
 
 .navbar a {
-    color: white;
+    color: #0274ff;
     text-decoration: none;
     font-size: 18px;
     display: block;
@@ -90,5 +89,5 @@ a:hover {
 }
 
 .navbar a:hover {
-    background-color: #lightblue; /* Lighter blue on hover */
+    background-color: white;
 }
