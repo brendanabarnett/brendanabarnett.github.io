@@ -51,14 +51,13 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+/*a:hover {
     text-decoration: underline;
-}
+}*/
 
 .project {
     margin-bottom: 20px;
 }
-
 
 .navbar {
     background-color: black;
@@ -85,9 +84,13 @@ a:hover {
     text-decoration: none;
     font-size: 18px;
     display: block;
-    transition: background-color 0.3s ease;
+    /*transition: background-color 0.3s ease;*/
 }
 
 .navbar a:hover {
+    background-color: gray;
+}
+
+.navbar a:click {
     background-color: white;
 }
