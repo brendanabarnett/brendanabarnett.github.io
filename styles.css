@@ -48,12 +48,12 @@ header {
     color: black;
 }
 
-/*.header-content {
-    display: grid;
-    grid-template-columns: auto 1fr;
+.header-content {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-}*/
+}
+
 
 
 /* section separation */
