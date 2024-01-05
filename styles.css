@@ -51,10 +51,6 @@ a {
     text-decoration: none;
 }
 
-/*a:hover {
-    text-decoration: underline;
-}*/
-
 .project {
     margin-bottom: 20px;
 }
@@ -76,21 +72,20 @@ a {
 }
 
 .navbar li {
-    padding: 15px;
+    padding: 10px;
 }
 
 .navbar a {
-    color: #0274ff;
+    color: white;
     text-decoration: none;
     font-size: 18px;
-    display: block;
-    /*transition: background-color 0.3s ease;*/
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #0274ff;
+    transition: background-color 0.3s ease;
 }
 
 .navbar a:hover {
-    background-color: gray;
-}
-
-.navbar a:click {
-    background-color: white;
+    background-color: #0158a7; /* Lighter blue on hover */
 }
