@@ -48,36 +48,12 @@ header {
     color: black;
 }
 
-.header-content {
+/*.header-content {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 20px;
-}
-
-.logo img {
-    width: 40vw;
-    height: auto;
-}
-
-.hey {
-    grid-column: 1 / span 2;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.hey h1 {
-    font-size: 3vw;
-    color: blue;
-    margin-bottom: 0;
-}
-
-.intro-text {
-    text-align: left;
-    margin: 0;
-}
-
-
+}*/
 
 
 /* section separation */
