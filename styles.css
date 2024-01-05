@@ -72,7 +72,6 @@ body {
 
 header {
     text-align: center;
-    background-color: #f0f0f0; /* Background color for visualization */
     padding: 20px;
 }
 
@@ -83,13 +82,14 @@ header {
 }
 
 .logo img {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Add space between image and text */
+    width: 120px; 
+    height: auto; 
+    margin-right: 50px;
 }
 
 .intro-text {
-    text-align: left; /* Align text to the left */
+    text-align: left; 
+    margin: 2px 0;
 }
 
 h1 {
