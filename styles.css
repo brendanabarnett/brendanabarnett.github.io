@@ -59,10 +59,14 @@ a:hover {
     margin-bottom: 20px;
 }
 
-/* navbar */
+
+
 .navbar {
-    background-color: #0274ff; /* Lovely blue */
+    background-color: #0274ff; /*lovely blue*/
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -70,11 +74,10 @@ a:hover {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .navbar li {
-    display: inline;
     padding: 15px;
 }
 
@@ -83,10 +86,9 @@ a:hover {
     text-decoration: none;
     font-size: 18px;
     display: block;
-    text-align: center;
-    padding: 14px 16px;
+    transition: background-color 0.3s ease;
 }
 
 .navbar a:hover {
-    color: lightgray;
+    background-color: #lightblue; /* Lighter blue on hover */
 }
