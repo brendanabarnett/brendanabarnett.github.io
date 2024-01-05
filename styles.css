@@ -9,6 +9,36 @@ section:not(:last-child) {
     margin-bottom: 20px;
 }
 
+.resumebutton {
+  margin-top: 6%;
+  margin-left: 0%;
+  width: 12vw;
+}
+
+@media (min-width: 851px) and (max-width: 1250px) {
+  .resumebutton {
+    margin-top: 6%;
+    margin-left: 0%;
+    width: 14vw;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 850px) {
+  .resumebutton {
+    margin-top: 6%;
+    margin-left: 0%;
+    width: 16vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .resumebutton {
+    margin-top: 6%;
+    margin-left: 0%;
+    width: 26vw;
+  }
+}
+
 /*
 .section-divider {
     position: absolute;
