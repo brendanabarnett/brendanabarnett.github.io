@@ -51,7 +51,7 @@ a:hover {
 
 /* Additional styles for the navbar */
 .navbar {
-    background-color: #333; /* Dark background color for the navbar */
+    background-color: #0274ff; /* lovely blue */
     overflow: hidden;
 }
 
@@ -60,7 +60,7 @@ a:hover {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 .navbar li {
