@@ -42,35 +42,39 @@ header {
 
 header {
     text-align: center;
-    padding: 10px, 4%;
+    padding: 10px 4%;
     font-family: 'Roboto', sans-serif;
     background-color: white;
     color: black;
-    font-size: 2vw;
 }
 
 .header-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
 }
 
 .logo img {
-    width: 200px; 
-    height: auto; 
-    margin-right: 75px;
+    width: 40vw;
+    height: auto;
 }
 
-.intro-text {
-    text-align: left; 
-    /*margin: 2px 0;*/
-    margin-bottom: 2px;
+.hey {
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .hey h1 {
     font-size: 3vw;
     color: blue;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.intro-text {
+    text-align: left;
+    margin: 0;
 }
 
 
