@@ -87,16 +87,18 @@ header p {
 
 .navbar li {
     margin: 0 2%;
+    padding: .5vh;
 }
 
 .navbar a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.5vw;
     padding: 2% 4%; 
     border-radius: 1vw; 
     transition: background-color 0.3s ease;
     box-shadow: .25vh .25vh .25vh black;
+    background-color: #0274ff;
 }
 
 
