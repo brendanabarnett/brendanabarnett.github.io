@@ -32,7 +32,60 @@ header p {
 /*******************************************/
 
 
+.navbar {
+    background-color: rgba(252, 252, 252, 0.8);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0 1vh;
+    padding: 0.5vh;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5vh;
+    cursor: pointer;
+}
+
+.brand-logo img {
+    width: 2vh; /* Adjust the size of the logo image */
+    margin-right: 0.5vh; /* Adjust spacing between the image and text */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 1vh 2vh;
+    border-radius: 1vh;
+    background-color: #0274ff;
+    transition: background-color 0.3s ease;
+    box-shadow: 0.25vh 0.25vh 0.25vh black;
+}
+
+.navbar a:hover {
+    background-color: #389af7;
+}
+
+
+
+
+
+
+/*
 .navbar {
     background-color: rgba(252, 252, 252, 0.8);
     overflow: hidden;
@@ -47,9 +100,8 @@ header p {
     margin-left: 2vh;
     margin-top: .5vh;      
     margin-bottom: .5vh;
-    padding: 0;
+    padding: .5vh;
     display: flex;
-    /*flex-direction: column;*/
     justify-content: right;
 }
 
@@ -68,6 +120,18 @@ header p {
     transition: background-color 0.3s ease;
     box-shadow: .25vh .25vh .25vh black;
 }
+
+*/
+
+
+
+
+
+
+
+
+
+
 
 /*
 .navbar {
