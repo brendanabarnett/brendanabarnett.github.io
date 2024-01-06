@@ -14,9 +14,7 @@ header {
     align-items: center;
     height: 100%;
     width: 100%;
-    /*margin: 2%;*/
 }
-
 
 header h1 {
     font-size: 8vw;
@@ -29,6 +27,59 @@ header p {
     margin: 1vh 0;
     line-height: 1;
 }
+
+
+/*******************************************/
+
+
+
+.navbar {
+    background-color: rgba(252, 252, 252, 0.8);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar li {
+    padding: 2vh;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    display: inline-block;
+    padding: 2vh 4vh;
+    border-radius: 2vh;
+    background-color: #0274ff;
+    transition: background-color 0.3s ease;
+    box-shadow: .5vh .5vh .5vh black;
+}
+
+.navbar a:hover {
+    background-color: #389af7;
+}
+
+.navbar a:active {
+    background-color: #68b5fc;
+}
+
+
+/*******************************************/
+
+
+
+
 
 
 
@@ -129,43 +180,3 @@ a {
     margin-bottom: 20px;
 }
 
-.navbar {
-    background-color: rgba(252, 252, 252, 0.8);
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding: 0;
-    display: flex;
-    justify-content: right;
-}
-
-.navbar li {
-    padding: 10px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    display: inline-block;
-    padding: 8px 12px;
-    border-radius: 6px;
-    background-color: #0274ff;
-    transition: background-color 0.3s ease;
-    box-shadow: 1px 1px 1px #ffffff;
-}
-
-.navbar a:hover {
-    background-color: #389af7;
-}
-
-.navbar a:active {
-    background-color: #68b5fc;
-}
