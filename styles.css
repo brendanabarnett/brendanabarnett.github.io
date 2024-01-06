@@ -31,7 +31,6 @@ header p {
 
 /*******************************************/
 
-
 .navbar {
     background-color: rgba(252, 252, 252, 0.8);
     overflow: hidden;
@@ -46,6 +45,7 @@ header p {
     padding: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navbar li {
@@ -53,22 +53,18 @@ header p {
     padding: 0.5vh;
 }
 
-.brand-logo {
-    display: flex;
-    align-items: center;
-    font-size: 1.5vh;
-    cursor: pointer;
+.brand-name {
+    color: black;
 }
 
-.brand-logo img {
-    width: 2vh; /* Adjust the size of the logo image */
-    margin-right: 0.5vh; /* Adjust spacing between the image and text */
+.brand-name,
+.navbar a {
+    text-decoration: none;
+    font-size: 1vw;
 }
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 1vw;
+    color: black;
     padding: 1vh 2vh;
     border-radius: 1vh;
     background-color: #0274ff;
