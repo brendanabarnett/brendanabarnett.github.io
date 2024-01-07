@@ -32,52 +32,11 @@ header p {
 /*******************************************/
 
 .navbar {
-    background-color: rgba(252, 252, 252, 0.8);
+    background-color: rgba(252,252,252, .8);
     overflow: hidden;
     position: sticky;
-    top: 0;
-    z-index: 1000;
+    z-index: 0;
 }
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar li {
-    margin: 0 1vh;
-    padding: 0.5vh;
-}
-
-.brand-name {
-    color: black;
-}
-
-.brand-name,
-.navbar a {
-    text-decoration: none;
-    font-size: 1vw;
-}
-
-.navbar a {
-    color: black;
-    padding: 1vh 2vh;
-    border-radius: 1vh;
-    background-color: #0274ff;
-    transition: background-color 0.3s ease;
-    box-shadow: 0.25vh 0.25vh 0.25vh black;
-}
-
-.navbar a:hover {
-    background-color: #389af7;
-}
-
-
-
 
 
 
