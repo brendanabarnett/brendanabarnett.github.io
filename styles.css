@@ -59,18 +59,18 @@ header p {
     margin-bottom: .2vh;
 }
 
-.left-container {
+.left-nav {
     margin-left: 7vh; /* Adjust the left container's spacing */
 }
 
-.right-container {
+.right-nav {
     display: flex;
     justify-content: flex-end; /* Aligns content to the right */
     flex-grow: 1; /* Takes remaining space */
     margin-right: 7vh; 
 }
 
-.right-container a {
+.right-nav a {
     margin-left: 2vh; /* Adjust spacing between links */
 }
 
