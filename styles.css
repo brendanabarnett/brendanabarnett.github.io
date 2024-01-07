@@ -55,13 +55,26 @@ header p {
 .navbar a {
     color: black;
     text-decoration: none;
-    /*font-size: 1vw;
-    display: inline-block;
+    font-size: 1vw;
+
+    /*display: inline-block;
     padding: 1vh 2vh;
     border-radius: 1vh;
     background-color: #0274ff;*/
     /*transition: background-color 0.3s ease;
     box-shadow: .25vh .25vh .25vh black;*/
+}
+
+.navbar a:hover {
+    color: #0275ff;
+}
+
+.navbar a:active {
+    color: #389af7;
+}
+
+nav-logo {
+    
 }
 
 
@@ -140,14 +153,6 @@ header p {
 }
 
 */
-
-.navbar a:hover {
-    background-color: #389af7;
-}
-
-.navbar a:active {
-    background-color: #68b5fc;
-}
 
 
 /*******************************************/
