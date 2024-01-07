@@ -33,9 +33,9 @@ header p {
 
 .navbar {
     /*background-color: rgba(252,252,252, .8);*/
-    font-family: 'Bubblegum Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: transparent;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2.5px);
     overflow: hidden;
     position: sticky;
     top: 0;
@@ -55,23 +55,23 @@ header p {
     color: black;
     text-decoration: none;
     font-size: 1.25vw;
-    margin-top: .25vh;
-    margin-bottom: .25vh;
+    margin-top: .2vh;
+    margin-bottom: .2vh;
 }
 
 .left-container {
-    margin-left: 5vh; /* Adjust the left container's spacing */
+    margin-left: 7vh; /* Adjust the left container's spacing */
 }
 
 .right-container {
     display: flex;
     justify-content: flex-end; /* Aligns content to the right */
     flex-grow: 1; /* Takes remaining space */
-    margin-right: 5vh; 
+    margin-right: 7vh; 
 }
 
 .right-container a {
-    margin-left: 1.25vh; /* Adjust spacing between links */
+    margin-left: 2vh; /* Adjust spacing between links */
 }
 
 .navbar a:hover {
