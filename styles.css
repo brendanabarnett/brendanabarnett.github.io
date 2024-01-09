@@ -83,6 +83,17 @@ header p {
 }
 
 
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/*when i click on a navbar, make the respective section title turn fade blue .5 s then fade back to black*/
+/*when i click brendan barnett, each letter of the title, one by one, turns blue then back to black*/
+/*coming soon section for web design and development business*/
+
 
 /*******************************************/
 
