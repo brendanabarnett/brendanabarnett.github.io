@@ -712,7 +712,7 @@ section {
     height: 25%;
 }
 
-.picture-item1:hover, .picture-item2:hover, .picture-item3:hover , .picture-item4:hover, .picture-item5:hover, .picture-item6:hover, .picture-item7:hover{
+.picture-item1:hover, .picture-item2:hover, .picture-item3:hover , .picture-item4:hover, .picture-item5:hover, .picture-item6:hover, .picture-item7:hover, .picture-item8:hover{
     background-color: rgb(116, 167, 249);
 }
 
